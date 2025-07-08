@@ -11,7 +11,6 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "stylelint": "stylelint \"**/*.{css,scss}\"",
-    "export": "next export",
     "deploy": "pnpm build && gh-pages -d out"
   },
   "devDependencies": {

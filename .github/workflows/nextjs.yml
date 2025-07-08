@@ -43,13 +43,10 @@ jobs:
       - name: Build project
         run: pnpm build
 
-      - name: Export static site
-        run: pnpm export
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: .next/export
 
   deploy:
     environment:
