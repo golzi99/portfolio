@@ -1,0 +1,91 @@
+.mobileMenu {
+}
+
+.MobileMenuPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 9999;
+  background-color: var(--primaryBg);
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(100%);
+  transition: var(--burgerTransition);
+
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: var(--burgerTransition);
+  }
+}
+
+.MobileMenuPopupOpen {
+  transform: translateX(0);
+
+  & ul {
+    gap: 20px;
+  }
+}
+
+.burgerButton {
+  position: fixed;
+  top: -100px;
+  right: -100px;
+
+  width: 200px;
+  height: 200px;
+  z-index: 99999;
+
+  span {
+    display: block;
+    width: 36px;
+    height: 2px;
+    background-color: var(--primaryTextColor);
+
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 36px;
+      height: 2px;
+      background-color: var(--primaryTextColor);
+
+      position: absolute;
+      transform: translateY(-10px);
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      background-color: var(--primaryTextColor);
+
+      position: absolute;
+      transform: translateY(10px);
+    }
+  }
+}
+
+.burgerButtonOpen {
+  background-color: rgba(255, 255, 255, 0);
+  &::before {
+    width: 36px;
+    transform: rotate(45deg) translateY(0);
+  }
+  &::after {
+    transform: rotate(-45deg) translateY(0);
+  }
+}

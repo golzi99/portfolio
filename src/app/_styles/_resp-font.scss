@@ -1,0 +1,12 @@
+/// Responsive font-size using clamp()
+/// @param $min - минимальный размер в px
+/// @param $max - максимальный размер в px
+/// @param $vmin - минимальная ширина в px (по умолчанию 360)
+/// @param $vmax - максимальная ширина в px (по умолчанию 1190)
+@mixin resp-font($min, $max, $vmin: 360, $vmax: 1190) {
+  $slope: ($max - $min) / ($vmax - $vmin);
+  $vw: $slope * 100;
+  $rem: ($max - $vmax * $slope) / 16;
+
+  font-size: clamp(#{$min}px, #{$rem}rem + #{$vw}vw, #{$max}px);
+}
