@@ -1,0 +1,93 @@
+@use '@/app/_styles/resp-font' as *;
+
+.Main {
+  min-height: 100vh;
+  display: flex;
+
+  @media screen and (max-width: 576px) {
+    margin-top: 50px;
+  }
+}
+
+.flexWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: stretch;
+  height: 100%;
+}
+
+.mainTextArea {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+
+  @media screen and (max-width: 576px) {
+    margin-bottom: 50px;
+  }
+}
+
+.hello {
+  font-weight: 400;
+  color: var(--primaryTitle);
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+
+.text {
+  @include resp-font(20, 27);
+  font-weight: 400;
+  color: var(--primaryTitle);
+  letter-spacing: -1px;
+}
+
+.name {
+  @include resp-font(36, 50);
+  font-weight: 700;
+  color: transparent;
+  letter-spacing: -1px;
+  margin: 10px 0;
+
+  background-image: linear-gradient(90deg, var(--accent), var(--contactColor));
+  -webkit-background-clip: text;
+
+  @media screen and (max-width: 576px) {
+    margin: 15px 0 22px;
+  }
+}
+
+.title {
+  @include resp-font(20, 27);
+  font-weight: 400;
+  color: var(--primaryTitle);
+  letter-spacing: -1px;
+
+  p {
+    display: none;
+  }
+}
+
+.photoWrapper {
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    content: '';
+    width: 350px;
+    height: 500px;
+    border: 5px solid var(--accent);
+
+    position: absolute;
+    top: -24px;
+    left: 24px;
+    z-index: -1;
+
+    @media screen and (max-width: 576px) {
+      width: 314px;
+      height: 414px;
+      top: -17px;
+      left: 20px;
+    }
+  }
+}
