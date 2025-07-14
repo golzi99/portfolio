@@ -1,3 +1,4 @@
+'use client'
 import s from './Main.module.scss'
 import { Container } from '@/shared/ui'
 import Typewriter from 'typewriter-effect'

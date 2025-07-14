@@ -1,0 +1,26 @@
+@use '@/app/_styles/resp-font' as *;
+
+.myBG {
+  margin-bottom: 20px;
+}
+
+.myBGText {
+  @include resp-font(16, 20);
+  font-weight: 400;
+  color: var(--secondaryTitle);
+  letter-spacing: 1px;
+}
+
+.place {
+  @include resp-font(16, 20);
+  font-weight: 500;
+  color: var(--contactColor);
+  letter-spacing: 1px;
+}
+
+.date {
+  @include resp-font(14, 18);
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 1px;
+}

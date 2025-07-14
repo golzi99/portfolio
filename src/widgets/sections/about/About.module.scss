@@ -1,0 +1,48 @@
+@use '../../../app/_styles/resp-font' as *;
+
+.flexWrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  align-content: stretch;
+}
+
+.image {
+  object-fit: cover;
+  z-index: 2;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.aboutTextArea {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.sectionAboutTitle {
+  @include resp-font(24, 42);
+  font-weight: 700;
+  color: var(--primaryTitle);
+  margin-bottom: 30px;
+  letter-spacing: -0.4px;
+
+  @media screen and (max-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
+
+.aboutText {
+  @include resp-font(14, 24);
+  font-weight: 300;
+  color: var(--primaryTextColor);
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 576px) {
+    margin-bottom: 20px;
+  }
+}

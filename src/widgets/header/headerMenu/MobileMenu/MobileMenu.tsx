@@ -1,3 +1,4 @@
+'use client'
 import s from './MobileMenu.module.scss'
 import { useState } from 'react'
 import { clsx } from 'clsx'

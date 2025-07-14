@@ -1,3 +1,4 @@
+'use client'
 import s from './DesktopMenu.module.scss'
 import { HeaderMenu } from '@/widgets/header/headerMenu'
 

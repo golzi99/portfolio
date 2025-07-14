@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import { Link } from 'react-scroll'
 import s from './HeaderMenu.module.scss'
@@ -40,7 +41,6 @@ export const HeaderMenu = ({ closeMenu }: Props) => {
             smooth={true}
             spy={true}
             duration={2000}
-            offset={-50}
           >
             {el.title}
             <span></span>

@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from 'react'
 import { loadSlim } from '@tsparticles/slim'
 import { Container } from '@tsparticles/engine'
