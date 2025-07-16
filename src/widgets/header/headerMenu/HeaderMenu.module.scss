@@ -11,7 +11,7 @@
   transition: var(--slowTransition);
   z-index: 1;
 
-  &:hover, &.active {
+  &:hover {
     color: var(--accent);
     text-shadow: 0 0 2px var(--accent);
   }
@@ -30,7 +30,17 @@
     transition: var(--slowTransition);
   }
 
-  &:hover span, &.active span {
+  &:hover span {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.activeLink {
+  color: var(--accent);
+  text-shadow: 0 0 2px var(--accent);
+
+  span {
     transform: scale(1) translateY(0);
     opacity: 1;
   }

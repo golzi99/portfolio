@@ -2,8 +2,9 @@
 import s from './page.module.scss'
 import { Header } from '@/widgets'
 import { ParticlesBackGround } from '@/widgets/parcticals/Particles'
-import { Main } from '@/widgets/sections/main/Main'
-import { About } from '@/widgets/sections/about/About'
+import { Main } from '@/widgets/sections/main'
+import { About } from '@/widgets/sections/about'
+import { Skills } from '@/widgets/sections/skills'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Header />
       <Main />
       <About />
+      <Skills />
     </div>
   )
 }

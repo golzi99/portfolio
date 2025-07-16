@@ -5,7 +5,7 @@ import { clsx } from 'clsx'
 import { HeaderMenu } from '@/widgets/header/headerMenu'
 
 export const MobileMenu = () => {
-  const [menuIsOpen, setMenuIsOpen] = useState(false)
+  const [menuIsOpen, setMenuIsOpen] = useState(true)
 
   function onBurgerBtnClick() {
     setMenuIsOpen(!menuIsOpen)
@@ -25,10 +25,10 @@ export const MobileMenu = () => {
         aria-modal={'true'}
         aria-label="MobileMenu_Modal_Window"
         onClick={() => {
-          setMenuIsOpen(false)
+          setMenuIsOpen(!menuIsOpen)
         }}
       >
-        <HeaderMenu closeMenu={() => setMenuIsOpen(false)} />
+        <HeaderMenu closeMenu={() => setMenuIsOpen(!menuIsOpen)} />
       </div>
     </nav>
   )

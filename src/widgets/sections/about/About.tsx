@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
-import { AboutBg, background } from './aboutBG/AboutBG'
 import { Container } from '@/shared/ui'
 import s from './About.module.scss'
 import Image from 'next/image'
+import { AboutBg, background } from '@/widgets/sections/about/aboutBG'
 
 const aboutText: string =
   'Frontend-разработчик прошел обучение в IT-Инкубаторе, где получил ценный опыт работы в команде и разработки реальных проектов. Специализируюсь на создании SPA с использованием React, NextJS, TypeScript, Redux, RTK, RTK Query. В разработке проектов использовал CSS, SCSS, MUI и Style-Components.  Отличаюсь целеустремленностью, вежливостью и способностью эффективно общаться с людьми. Постоянно стремлюсь к новым знаниям и улучшению своих навыков в разработке и взаимодействии с коллегами.'

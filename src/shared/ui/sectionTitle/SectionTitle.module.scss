@@ -1,0 +1,29 @@
+@use '../../../app/_styles/resp-font' as *;
+
+.sectionTitle {
+  text-align: center;
+  position: relative;
+}
+
+.sectionMainTitle {
+  @include resp-font(40, 48);
+  font-weight: 700;
+  color: var(--primaryTitle);
+  margin-bottom: 30px;
+
+  @media screen and (max-width: 576px) {
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+.sectionSubTitle {
+  @include resp-font(26, 32);
+  font-weight: 400;
+  color: var(--secondaryTitle);
+  margin-bottom: 75px;
+
+  @media screen and (max-width: 576px) {
+    margin-bottom: 50px;
+  }
+}

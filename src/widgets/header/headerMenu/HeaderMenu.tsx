@@ -34,13 +34,16 @@ export const HeaderMenu = ({ closeMenu }: Props) => {
           <Link
             className={s.Link}
             onClick={() => {
-              if (closeMenu) closeMenu()
+              if (closeMenu) {
+                closeMenu()
+              }
             }}
-            activeClass="active"
+            activeClass={s.activeLink}
             to={el.href}
             smooth={true}
             spy={true}
-            duration={2000}
+            duration={1500}
+            offset={-50}
           >
             {el.title}
             <span></span>

@@ -1,0 +1,10 @@
+.skillsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 105px;
+
+  @media screen and (max-width: 768px) {
+    gap: 60px;
+  }
+}
