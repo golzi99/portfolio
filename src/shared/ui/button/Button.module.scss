@@ -1,0 +1,25 @@
+.button {
+  width: 170px;
+  height: 32px;
+  color: var(--primaryTextColor);
+  background-color: var(--buttonBg);
+  border: 3px solid var(--primaryTextColor);
+  padding: 7px 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: var(--fastTransition);
+
+  &:hover {
+    color: var(--accent);
+    border: 3px solid var(--borderColor);
+    box-shadow: 0 0 2px 2px var(--borderColor);
+  }
+
+  @media screen and (max-width: 768px) {
+    border: 3px solid var(--borderColor);
+    box-shadow: 0 0 2px 2px var(--borderColor);
+  }
+}

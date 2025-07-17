@@ -1,3 +1,6 @@
 export * from './container/Container'
 export * from './icon/Icon'
 export * from './sectionTitle/SectionTitle'
+export * from './button/Button'
+export * from './techStack/TechStack'
+export * from './logo/Logo'

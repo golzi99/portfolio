@@ -1,1 +1,6 @@
 export * from './header/Header'
+export * from './parcticals/Particles'
+export * from './sections/main/Main'
+export * from './sections/skills/Skills'
+export * from './sections/about/About'
+export * from './sections/works/Works'

@@ -1,0 +1,47 @@
+@use '../../../../app/_styles/resp-font' as *;
+
+.tabMenu {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 352px;
+    width: 100%;
+    margin: 0 auto 40px;
+  }
+}
+
+.listItem {
+  position: relative;
+}
+
+.tabLink {
+  @include resp-font(18, 20);
+  font-weight: 500;
+  color: var(--worksCards);
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover {
+    &::before {
+      height: 5px;
+    }
+  }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    background-color: var(--accent);
+    height: 0;
+    position: absolute;
+    bottom: -5px;
+    left: -10px;
+    right: -10px;
+    transition: var(--fastTransition);
+  }
+}
+
+.activeTabLink {
+  &::before {
+    height: 5px;
+  }
+}

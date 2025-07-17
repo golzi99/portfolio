@@ -2,7 +2,7 @@
 import s from './Header.module.scss'
 import { Container } from '@/shared/ui'
 import { useEffect, useState } from 'react'
-import { Logo } from '@/widgets/header/logo/Logo'
+import { Logo } from '@/shared/ui/logo/Logo'
 import { DesktopMenu, MobileMenu } from '@/widgets/header/headerMenu'
 
 const logoSetting = {
