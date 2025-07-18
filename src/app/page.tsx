@@ -1,6 +1,6 @@
 'use client'
 import s from './page.module.scss'
-import { About, Header, Main, ParticlesBackGround, Skills, Works } from '@/widgets'
+import { About, Header, Main, ParticlesBackGround, Skills, Slogan, Works } from '@/widgets'
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <About />
       <Skills />
       <Works />
+      <Slogan />
     </div>
   )
 }
