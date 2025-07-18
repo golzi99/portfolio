@@ -36,8 +36,8 @@ const worksData = [
     src: './toDoList.jpeg',
     altText: 'TaskMaster project',
     techText: 'React',
-    liveLink: 'https://dmitriy-zarechnev.github.io/ToDoList_ui/',
-    codeLink: 'https://github.com/Dmitriy-Zarechnev/ToDoList_ui',
+    liveLink: 'https://golzi99.github.io/TodoList',
+    codeLink: 'https://github.com/golzi99/TodoList',
     id: 1,
   },
   {
@@ -56,8 +56,8 @@ const worksData = [
     src: './counter.jpeg',
     altText: 'Counter project',
     techText: 'Mini project',
-    liveLink: 'https://dmitriy-zarechnev.github.io/Counter_v2/',
-    codeLink: 'https://github.com/Dmitriy-Zarechnev/Counter_v2',
+    liveLink: 'https://golzi99.github.io/best-counter/',
+    codeLink: 'https://github.com/golzi99/best-counter',
     id: 3,
   },
 ]
