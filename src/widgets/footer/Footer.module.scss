@@ -1,0 +1,57 @@
+@use '../../app/_styles/resp-font' as *;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.PhoneMail {
+  @include resp-font(16, 18);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  color: var(--primaryTextColor);
+  z-index: 2;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;
+}
+
+.smallSpan {
+  font-weight: bold;
+  background-image: linear-gradient(90deg, var(--accent), var(--contactColor));
+  color: transparent;
+  -webkit-background-clip: text;
+  z-index: 2;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 2;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-content: stretch;
+  height: 100%;
+}
+
+.socialWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-content: stretch;
+  height: 100%;
+}

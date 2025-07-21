@@ -1,0 +1,17 @@
+.socialList {
+  display: flex;
+  gap: 15px;
+  z-index: 2;
+}
+
+.socialLink {
+  color: var(--contactColor);
+  transform: translateY(0px);
+  display: inline-block;
+  transition: var(--fastTransition);
+
+  &:hover {
+    color: var(--accent);
+    transform: translateY(-4px);
+  }
+}

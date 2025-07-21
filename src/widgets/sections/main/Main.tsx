@@ -27,7 +27,7 @@ export const Main = () => {
           </div>
           <div className={s.photoWrapper}>
             <Image
-              src={'./Kura.png'}
+              src={'./myPhoto2Cut.jpg'}
               alt={'photo'}
               width={350}
               height={450}

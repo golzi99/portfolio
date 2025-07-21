@@ -22,7 +22,7 @@ const skillData = [
   },
   {
     iconId: 'redux',
-    title: 'Redux',
+    title: 'RTK',
     iconViewBox: '0 0 120 120',
   },
 
