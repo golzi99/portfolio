@@ -43,6 +43,7 @@ export const HeaderMenu = ({ closeMenu }: Props) => {
             smooth={true}
             spy={true}
             duration={1500}
+            offset={-50}
           >
             {el.title}
             <span></span>
