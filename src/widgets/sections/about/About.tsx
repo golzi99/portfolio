@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { AboutBg, background } from '@/widgets/sections/about/aboutBG'
 
 const aboutText: string =
-  'Я Frontend-разработчик, который прошел обучение в IT-Инкубаторе, где получил ценный опыт работы в команде и разработки реальных проектов. Специализируюсь на создании SPA с использованием React, NextJS, TypeScript, Redux, RTK, RTK Query. В разработке проектов использовал CSS, SCSS, MUI и Style-Components. Я умею ставить цели и добиваться их, легко нахожу общий язык с людьми и всегда стараюсь вести себя корректно. Постоянно учусь новому и стремлюсь развиваться как в профессиональном плане, так и в командной работе.'
+  'Я Frontend-разработчик. Специализируюсь на создании SPA с использованием React, NextJS, TypeScript, Redux, RTK, RTK Query. В разработке проектов использовал CSS, SCSS, MUI и Style-Components. Я умею ставить цели и добиваться их, легко нахожу общий язык с людьми и всегда стараюсь вести себя корректно. Постоянно учусь новому и стремлюсь развиваться как в профессиональном плане, так и в командной работе.'
 
 const expData: Array<background> = [
   {
@@ -17,7 +17,7 @@ const expData: Array<background> = [
   {
     text: 'Front-end development: React, RTK, TypeScript, NextJS, Storybook',
     place: 'IT-Incubator:',
-    date: ' 2024 - н.в.',
+    date: ' 2023 - 2024',
   },
 ]
 
