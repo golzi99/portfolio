@@ -4,7 +4,7 @@ import '@/app/_styles/index.scss'
 
 export const metadata: Metadata = {
   title: 'Portfolio',
-  description: 'Portfolio golzi99',
+  description: 'Portfolio zolotovpa99',
 }
 
 export default function RootLayout({

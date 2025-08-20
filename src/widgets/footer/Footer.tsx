@@ -14,7 +14,7 @@ const iconsObj: Array<iconsType> = [
     id: 'gmailSocialLink',
     size: '30',
     viewBox: '-0.5 0 48 48',
-    link: 'mailto:golzi99@gmail.com',
+    link: 'mailto:zolotovpa99@gmail.com',
     aria: 'Link to email',
   },
   {
@@ -28,7 +28,7 @@ const iconsObj: Array<iconsType> = [
     id: 'telegramSocialLink',
     size: '30',
     viewBox: '2 2 20 20',
-    link: 'https://t.me/GrainWind',
+    link: 'https://t.me/ZolotovPA',
     aria: 'Link to my Telegram',
   },
 ]
@@ -40,7 +40,7 @@ export const Footer = () => {
         <div className={s.flexWrapper}>
           <h2 className={s.title}>Контакты</h2>
           <span className={s.PhoneMail}>+79295859285</span>
-          <span className={s.PhoneMail}>golzi99@gmail.com</span>
+          <span className={s.PhoneMail}>zolotovpa99@gmail.com</span>
           <div className={s.socialWrapper}>
             <SocialList iconsInfo={iconsObj} />
           </div>

@@ -8,7 +8,7 @@ export const Slogan = () => {
       <Container>
         <div className={s.flexWrapper}>
           <p className={s.title}>Давайте поработаем вместе над вашим проектом:</p>
-          <span className={s.email}>golzi99@gmail.com</span>
+          <span className={s.email}>zolotovpa99@gmail.com</span>
         </div>
       </Container>
     </div>
