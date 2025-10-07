@@ -6,18 +6,18 @@ import Image from 'next/image'
 import { AboutBg, background } from '@/widgets/sections/about/aboutBG'
 
 const aboutText: string =
-  'Я Frontend-разработчик. Специализируюсь на создании SPA с использованием React, NextJS, TypeScript, Redux, RTK, RTK Query. В разработке проектов использовал CSS, SCSS, MUI и Style-Components. Я умею ставить цели и добиваться их, легко нахожу общий язык с людьми и всегда стараюсь вести себя корректно. Постоянно учусь новому и стремлюсь развиваться как в профессиональном плане, так и в командной работе.'
+  'Я Frontend-разработчик, специализирующийся на создании удобных и доступных интерфейсов. Легко встраиваюсь в команду, предлагаю улучшения и беру ответственность за результат. Сейчас развиваю навыки в React Native и TanStack для кроссплатформенной разработки и эффективной работы с данными.'
 
 const expData: Array<background> = [
   {
     text: 'Инженер Frontend-разработчик',
     place: 'АО "НИКИЭТ":',
-    date: ' 2022 - 2024',
+    date: ' 2021 - 2025',
   },
   {
     text: 'Front-end development: React, RTK, TypeScript, NextJS, Storybook',
     place: 'IT-Incubator:',
-    date: ' 2023 - 2024',
+    date: ' 2021 - 2022',
   },
 ]
 
